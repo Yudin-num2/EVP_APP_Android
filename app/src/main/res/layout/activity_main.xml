@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvAuthorization"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -27,17 +27,17 @@
          />
 
     <LinearLayout
-        android:id="@+id/authForm"
+        android:id="@+id/llAuthForm"
         android:layout_width="340dp"
         android:layout_height="230dp"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/tvAuthorization"
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/tvLoginLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login_label"
@@ -47,7 +47,7 @@
             />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/etLogin"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:inputType="text"
@@ -59,7 +59,7 @@
             />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tvPasswordLabel"
             android:layout_width="match_parent"
             android:layout_height="20dp"
             android:text="@string/password_label"
@@ -69,7 +69,7 @@
             />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/ic_edit_text_loginform"
@@ -80,14 +80,14 @@
             android:autofillHints="password"/>
 
         <LinearLayout
-            android:id="@+id/switchLayout"
+            android:id="@+id/llSwitchLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="start">
 
             <Switch
-                android:id="@+id/switch1"
+                android:id="@+id/switchRememberMe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 tools:ignore="UseSwitchCompatOrMaterialXml"
@@ -96,7 +96,7 @@
                 android:layout_marginTop="10dp"/>
 
             <TextView
-                android:id="@+id/rememberMeLabel"
+                android:id="@+id/tvRememberMeLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="30dp"
                 android:textSize="16sp"
@@ -109,13 +109,13 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/authButton"
+        android:id="@+id/btnAuthButton"
         android:layout_width="340dp"
         android:layout_height="50dp"
         android:backgroundTint="@color/evp_cyan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/authForm"
+        app:layout_constraintTop_toBottomOf="@+id/llAuthForm"
         android:layout_marginTop="20dp"
         android:text="@string/auth_button_text"
         android:textSize="20sp"
