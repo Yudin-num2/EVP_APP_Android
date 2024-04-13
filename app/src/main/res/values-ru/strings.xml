@@ -5,4 +5,8 @@
     <string name="password_label">Пароль</string>
     <string name="remember_me_label">Запомнить меня</string>
     <string name="auth_button_text">Войти</string>
+    <string name="CurrentTasks">Текущие задачи</string>
+    <string name="Sockets">Гнезда</string>
+    <string name="register_a_defect">Зарегистрировать дефект</string>
+    <string name="register_a_anomaly">Зарегистрировать аномалию</string>
 </resources>

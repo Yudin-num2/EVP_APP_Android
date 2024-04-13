@@ -7,4 +7,10 @@
         <item name="android:fontFamily">@font/roboto_mono_italic</item>
         </style>
 
+    <style name="main_page_btn" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+
 </resources>
