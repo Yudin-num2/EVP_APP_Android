@@ -9,4 +9,10 @@
     <string name="Sockets">Гнезда</string>
     <string name="register_a_defect">Зарегистрировать дефект</string>
     <string name="register_a_anomaly">Зарегистрировать аномалию</string>
+    <string name="lid">Lid</string>
+    <string name="frame">Frame</string>
+    <string name="cutter">Cutter</string>
+    <string name="lid_12">Lid 12</string>
+    <string name="frame_12">Frame 12</string>
+    <string name="cutter_12">Cutter 12</string>
 </resources>

@@ -13,4 +13,11 @@
         <item name="fontFamily">@font/comfortaa</item>
     </style>
 
+    <style name="sockets_tab_text" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/roboto_mono</item>
+    </style>
+
 </resources>

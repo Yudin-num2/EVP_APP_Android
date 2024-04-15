@@ -4,8 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import ru.europlast.evpapp.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
@@ -20,13 +18,14 @@ class LoginActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(binding.root)
         binding.btnAuthButton.setOnClickListener{
-            testFunction()
+            authFunction()
         }
 
     }
-    private fun testFunction() {
+    private fun authFunction() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
+//        TODO add auth with postgre client with REST API
         finish()
     }
     }

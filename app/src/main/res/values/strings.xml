@@ -9,4 +9,10 @@
     <string name="Sockets">Sockets</string>
     <string name="register_a_defect">Register a defect</string>
     <string name="register_a_anomaly">Register an anomaly</string>
+    <string name="lid" translatable="false">Lid</string>
+    <string name="frame" translatable="false">Frame</string>
+    <string name="cutter" translatable="false">Cutter</string>
+    <string name="lid_12" translatable="false">Lid 12</string>
+    <string name="frame_12" translatable="false">Frame 12</string>
+    <string name="cutter_12" translatable="false">Cutter 12</string>
 </resources>
