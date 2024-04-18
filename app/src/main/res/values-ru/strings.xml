@@ -12,7 +12,7 @@
     <string name="lid">Lid</string>
     <string name="frame">Frame</string>
     <string name="cutter">Cutter</string>
-    <string name="lid_12">Lid 12</string>
-    <string name="frame_12">Frame 12</string>
-    <string name="cutter_12">Cutter 12</string>
+    <string name="lid_12">Lid&#10;12</string>
+    <string name="frame_12">Frame&#10;12</string>
+    <string name="cutter_12">Cutter&#10;12</string>
 </resources>

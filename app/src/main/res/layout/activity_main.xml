@@ -7,6 +7,7 @@
     android:background="@drawable/ic_background_img">
 
     <LinearLayout
+        android:id="@+id/llButtonGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"

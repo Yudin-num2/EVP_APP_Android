@@ -4,7 +4,7 @@
     <group android:id="@+id/menugroup1">
         <item
             android:id="@+id/menu1"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@mipmap/ic_launcher_rounded"
             android:title="Popup menu item 1"/>
         <item
             android:id="@+id/menu2"
@@ -15,7 +15,7 @@
         </item>
         <item
             android:id="@+id/menu4"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@mipmap/ic_launcher_rounded"
             android:title="Popup menu item 4"/>
         <item
             android:id="@+id/menu5"

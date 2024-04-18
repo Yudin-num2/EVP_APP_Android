@@ -1,8 +1,8 @@
 package ru.europlast.evpapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import ru.europlast.evpapp.databinding.ActivityMainBinding
@@ -21,7 +21,6 @@ class MainActivity : AppCompatActivity() {
 
         _binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         binding.btnSockets.setOnClickListener{
             showPopupMenu(it)
         }
@@ -35,7 +34,8 @@ class MainActivity : AppCompatActivity() {
         builder.setTitle("Выберите комплекс")
         builder.setItems(machines) { _, which ->
             if (machines[which] == "Telerobot 1"){
-
+                val intent = Intent(this, SocketsT01Activity::class.java)
+                startActivity(intent)
             }
 
         }
