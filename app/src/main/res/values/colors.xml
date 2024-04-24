@@ -8,5 +8,22 @@
     <color name="unchecked_thumb">#8c8c8c</color>
     <color name="checked_track">#03FF72</color>
     <color name="checked_thumb">#FFFFFF</color>
+    <color name="socket_good">#39E500</color>
+    <color name="socket_pressed">#28A000</color>
+
+<!--    Socket reasons-->
+    <color name="underfilling">#1C71D8</color>
+    <color name="dirt">#9141AC</color>
+    <color name="needle_chipping">#33A77F</color>
+    <color name="flash_by_closure">#A0A71B</color>
+    <color name="crack">#FF29EC</color>
+    <color name="hole">#E01B24</color>
+    <color name="gate_valve">#C0FF41</color>
+    <color name="not_warm">#003287</color>
+    <color name="geometry">#D2691E</color>
+    <color name="water">#00DAC7</color>
+<!--    -->
+
+
 
 </resources>

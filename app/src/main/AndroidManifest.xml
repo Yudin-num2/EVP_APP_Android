@@ -30,6 +30,12 @@
             android:exported="true"/>
         <activity android:name=".SocketsT01Activity"
             android:exported="true"/>
+        <activity android:name=".Button12Fragment"
+            android:exported="true"/>
+        <activity android:name=".SocketsAdapter"
+            android:exported="true"/>
+        <activity android:name=".Button48Fragment"
+            android:exported="true"/>
     </application>
 
 </manifest>

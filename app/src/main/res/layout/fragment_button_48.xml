@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <GridLayout
+        android:id="@+id/glSockets48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="5dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket1"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="1"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket2"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:text="2"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket3"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:text="3"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket4"
+            android:layout_row="0"
+            android:layout_column="3"
+            android:text="4"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket5"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="5"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket6"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text="6"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket7"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:text="7"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket8"
+            android:layout_row="1"
+            android:layout_column="3"
+            android:text="8"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket9"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="9"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket10"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text="10"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket11"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:text="11"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket12"
+            android:layout_row="2"
+            android:layout_column="3"
+            android:text="12"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket13"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="13"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket14"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text="14"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket15"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:text="15"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket16"
+            android:layout_row="3"
+            android:layout_column="3"
+            android:text="16"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket17"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="17"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket18"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:text="18"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket19"
+            android:layout_row="4"
+            android:layout_column="2"
+            android:text="19"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket20"
+            android:layout_row="4"
+            android:layout_column="3"
+            android:text="20"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket21"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="21"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket22"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:text="22"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket23"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:text="23"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket24"
+            android:layout_row="5"
+            android:layout_column="3"
+            android:text="24"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket25"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="25"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket26"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:text="26"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket27"
+            android:layout_row="6"
+            android:layout_column="2"
+            android:text="27"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket28"
+            android:layout_row="6"
+            android:layout_column="3"
+            android:text="28"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket29"
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="29"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket30"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:text="30"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket31"
+            android:layout_row="7"
+            android:layout_column="2"
+            android:text="31"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket32"
+            android:layout_row="7"
+            android:layout_column="3"
+            android:text="32"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket33"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:text="33"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket34"
+            android:layout_row="8"
+            android:layout_column="1"
+            android:text="34"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket35"
+            android:layout_row="8"
+            android:layout_column="2"
+            android:text="35"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket36"
+            android:layout_row="8"
+            android:layout_column="3"
+            android:text="36"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket37"
+            android:layout_row="9"
+            android:layout_column="0"
+            android:text="37"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket38"
+            android:layout_row="9"
+            android:layout_column="1"
+            android:text="38"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket39"
+            android:layout_row="9"
+            android:layout_column="2"
+            android:text="39"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket40"
+            android:layout_row="9"
+            android:layout_column="3"
+            android:text="40"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket41"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:text="41"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket42"
+            android:layout_row="10"
+            android:layout_column="1"
+            android:text="42"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket43"
+            android:layout_row="10"
+            android:layout_column="2"
+            android:text="43"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket44"
+            android:layout_row="10"
+            android:layout_column="3"
+            android:text="44"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket45"
+            android:layout_row="11"
+            android:layout_column="0"
+            android:text="45"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket46"
+            android:layout_row="11"
+            android:layout_column="1"
+            android:text="46"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket47"
+            android:layout_row="11"
+            android:layout_column="2"
+            android:text="47"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSocket48"
+            android:layout_row="11"
+            android:layout_column="3"
+            android:text="48"  
+            android:background="@drawable/ic_good_socket_button"
+            tools:ignore="HardcodedText" 
+            android:layout_margin="5dp"
+            style="@style/sockets_buttons_text"/>
+
+    </GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

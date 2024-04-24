@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:id="@+id/llSockets"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -8,37 +9,50 @@
     android:fitsSystemWindows="true">
 
     <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/inlayLid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/lid" />
+            android:textAlignment="center" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/inlayFrame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/frame" />
+            android:textAlignment="center" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/inlayCutter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cutter" />
+            android:textAlignment="center" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/inlayLid12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/lid_12"/>
+            android:textAlignment="center"/>
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/inlayFrame12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/frame_12" />
+            android:textAlignment="center" />
 
         <com.google.android.material.tabs.TabItem
+            android:id="@+id/inlayCutter12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cutter_12" />
+            android:textAlignment="center"/>
     </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.viewpager2.widget.ViewPager2>
 </LinearLayout>
