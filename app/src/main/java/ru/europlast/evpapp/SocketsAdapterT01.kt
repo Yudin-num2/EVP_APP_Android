@@ -4,7 +4,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
 
-class SocketsAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
+class SocketsAdapterT01(fragmentActivity: FragmentActivity) : FragmentStateAdapter(fragmentActivity) {
 
     override fun createFragment(position: Int): Fragment {
         return if (position < 3) {
@@ -13,9 +13,6 @@ class SocketsAdapter(fragmentActivity: FragmentActivity) : FragmentStateAdapter(
             Button12Fragment()
         }
     }
-
-    override fun getItemCount(): Int {
-        return 6
-    }
+    override fun getItemCount(): Int = 6
 }
 

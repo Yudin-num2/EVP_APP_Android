@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:id="@+id/llSockets"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clSockets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/ic_background_img"
     android:orientation="vertical"
-    android:fitsSystemWindows="true">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background_img">
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabl"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/inlayLid"
@@ -35,7 +38,7 @@
             android:id="@+id/inlayLid12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"/>
+            android:textAlignment="center" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/inlayFrame12"
@@ -47,12 +50,16 @@
             android:id="@+id/inlayCutter12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAlignment="center"/>
+            android:textAlignment="center" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </androidx.viewpager2.widget.ViewPager2>
-</LinearLayout>
+        android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+

@@ -9,28 +9,26 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 
 
-class SocketsT01Activity : AppCompatActivity() {
+class SocketsT02To7Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sockets_t1)
+        setContentView(R.layout.activity_sockets_t2_to_7)
 
-        val adapter = SocketsAdapterT01(this)
-        val viewPager = findViewById<ViewPager2>(R.id.pager)
+        val adapter = SocketsAdapterT02To7(this)
+        val viewPager = findViewById<ViewPager2>(R.id.pager_t02_to_7)
         viewPager.adapter = adapter
         window.setBackgroundDrawable(ColorDrawable(
             ContextCompat.getColor(this, R.color.evp_cyan)))
 
-        val tabLayout = findViewById<TabLayout>(R.id.tabl)
+        val tabLayout = findViewById<TabLayout>(R.id.tabl_t02_to_7)
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             when (position) {
                 0 -> tab.text = "Lid"
                 1 -> tab.text = "Frame"
                 2 -> tab.text = "Cutter"
-                3 -> tab.text = "Lid\n12"
-                4 -> tab.text = "Frame\n12"
-                5 -> tab.text = "Cutter\n12"
             }
         }.attach()
+
 
     }
 
