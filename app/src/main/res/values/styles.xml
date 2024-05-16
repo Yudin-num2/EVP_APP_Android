@@ -8,22 +8,44 @@
         </style>
 
     <style name="main_page_btn" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">100dp</item>
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
         <item name="fontFamily">@font/comfortaa</item>
     </style>
 
-    <style name="sockets_tab_text" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">@color/black</item>
-        <item name="android:textSize">20sp</item>
+    <style name="choice_machine_btn" parent="TextAppearance.AppCompat">
+        <item name="android:width">110dp</item>
+        <item name="android:height">60dp</item>
+        <item name="android:textSize">25sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="fontFamily">@font/roboto_mono</item>
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+
+    <style name="save_and_exit_btn" parent="TextAppearance.AppCompat">
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="sockets_buttons_text" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_margin">1.5dp</item>
         <item name="android:textColor">@color/black</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="machine_name_on_sockets">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
 </resources>

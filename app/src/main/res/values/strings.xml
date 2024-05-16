@@ -1,4 +1,5 @@
 <resources>
+
     <string name="app_name" translatable="false">EVPAPP</string>
     <string name="authorization_label">Authorization</string>
     <string name="login_label">Login</string>
@@ -7,17 +8,17 @@
     <string name="auth_button_text">Sign in</string>
     <string name="register_a_defect">Register a defect</string>
     <string name="register_a_anomaly">Register an anomaly</string>
-    <string name="CurrentTasks">currentTasks</string>
-    <string name="Sockets">sockets</string>
+    <string name="CurrentTasks">Current tasks</string>
+    <string name="Sockets">Sockets</string>
     <string name="lid" translatable="false">Lid</string>
     <string name="frame" translatable="false">Frame</string>
     <string name="cutter" translatable="false">Cutter</string>
-    <string name="lid_12" translatable="false">Lid&#10;12</string>
-    <string name="frame_12" translatable="false">Frame&#10;12</string>
-    <string name="cutter_12" translatable="false">Cutter&#10;12</string>
+    <string name="lid_12" translatable="false">Lid 12</string>
+    <string name="frame_12" translatable="false">Frame 12</string>
+    <string name="cutter_12" translatable="false">Cutter 12</string>
 
 <!--    Socket reasons    -->
-    <string name="underfilling">underfilling</string>
+    <string name="underfilling">Underfilling</string>
     <string name="dirt">Dirt</string>
     <string name="needle_chipping">Needle chipping</string>
     <string name="flash_by_closure">Flash by closure</string>
@@ -28,6 +29,10 @@
     <string name="geometry">Geometry</string>
     <string name="water">Water</string>
     <string name="good_socket">In work</string>
-<!--                 -->
+    <!--                 -->
+
+    <string name="save_and_exit">Save and exit</string>
+    <string name="selected_socket">Selected socket №</string>
+    <string name="select_reason">Select reason</string>
 
 </resources>

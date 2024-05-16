@@ -44,6 +44,7 @@
     <color name="water_pressed">#01786D</color>
 <!--    -->
 
-
+    <color name="save_and_exit_normal">#FAFF63</color>
+    <color name="save_and_exit_pressed">#DCCD42</color>
 
 </resources>

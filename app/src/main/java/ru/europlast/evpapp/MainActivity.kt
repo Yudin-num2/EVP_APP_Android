@@ -3,7 +3,6 @@ package ru.europlast.evpapp
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import ru.europlast.evpapp.databinding.ActivityMainBinding
@@ -35,15 +34,13 @@ class MainActivity : AppCompatActivity() {
         builder.setTitle("Выберите комплекс")
         builder.setItems(machines) { _, which ->
             if (machines[which] == "Telerobot 1"){
-                val intent = Intent(this, SocketsT01Activity::class.java)
+                val intent = Intent(this, ChoiceMachine::class.java)
                 startActivity(intent)
-                Toast.makeText(this, "Показываю SocketsT01",
-                    Toast.LENGTH_SHORT).show();
+
             }else {
-                val intent1 = Intent(this, SocketsT02To7Activity::class.java)
+                val intent1 = Intent(this, ChoiceMachine::class.java)
                 startActivity(intent1)
-                Toast.makeText(this, "Показываю SocketsT02To7",
-                    Toast.LENGTH_SHORT).show();
+
 
             }
 

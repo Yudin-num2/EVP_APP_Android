@@ -20,4 +20,7 @@
     <string name="geometry">Геометрия</string>
     <string name="water">Вода</string>
     <string name="good_socket">В работе</string>
+    <string name="save_and_exit">Сохранить и выйти</string>
+    <string name="selected_socket">Выбрано гнездо №</string>
+    <string name="select_reason">Выберите причину</string>
 </resources>
