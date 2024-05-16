@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         builder.setItems(machines) { _, which ->
             if (machines[which] == "Telerobot 1"){
                 val intent = Intent(this, ChoiceMachine::class.java)
+                intent.putExtra("TelerobotName", machines[which])
                 startActivity(intent)
 
             }else {

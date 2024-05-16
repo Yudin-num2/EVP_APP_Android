@@ -34,5 +34,7 @@
     <string name="save_and_exit">Save and exit</string>
     <string name="selected_socket">Selected socket №</string>
     <string name="select_reason">Select reason</string>
+    <string name="checking_data">Checking the entered data</string>
+    <string name="socket">Socket</string>
 
 </resources>
