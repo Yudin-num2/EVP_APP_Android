@@ -1,6 +1,8 @@
 package ru.europlast.evpapp
 
 import android.content.Intent
+import android.content.pm.ActivityInfo
+import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -25,7 +27,7 @@ class LoginActivity : AppCompatActivity() {
     private fun authFunction() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
-//        TODO add auth with postgre client with REST API
+//        TODO add auth with postgreSQL with REST API
         finish()
     }
     }

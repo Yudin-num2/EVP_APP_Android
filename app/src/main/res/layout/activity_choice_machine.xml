@@ -43,4 +43,40 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btnTPAFrame" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTPALid12"
+        style="@style/main_page_btn"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_button_shape"
+        android:gravity="center"
+        android:text="@string/lid_12"
+        app:layout_constraintEnd_toEndOf="@+id/btnTPALid"
+        app:layout_constraintTop_toBottomOf="@+id/btnTPALid"
+        android:layout_marginTop="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTPAFrame12"
+        style="@style/main_page_btn"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_button_shape"
+        android:gravity="center"
+        android:text="@string/frame_12"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTPALid12"
+        app:layout_constraintEnd_toEndOf="@+id/btnTPAFrame"
+        app:layout_constraintTop_toTopOf="@+id/btnTPALid12" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTPACutter12"
+        style="@style/main_page_btn"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ic_button_shape"
+        android:gravity="center"
+        android:text="@string/cutter_12"
+        app:layout_constraintBottom_toBottomOf="@+id/btnTPALid12"
+        app:layout_constraintEnd_toEndOf="@+id/btnTPACutter"
+        app:layout_constraintTop_toTopOf="@+id/btnTPAFrame12" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

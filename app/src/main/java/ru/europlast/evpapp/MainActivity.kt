@@ -39,8 +39,9 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
 
             }else {
-                val intent1 = Intent(this, ChoiceMachine::class.java)
-                startActivity(intent1)
+                val intent = Intent(this, ChoiceMachine::class.java)
+                intent.putExtra("TelerobotName", machines[which])
+                startActivity(intent)
 
 
             }
